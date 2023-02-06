@@ -1,12 +1,12 @@
 package baseball;
 
 public class BaseBallTeam {
-    //フィールド
+
     private String name;
     private int win;
     private int lose;
     private int draw;
-    //コンストラクタ
+
     public BaseBallTeam(String name, int win, int lose, int draw) {
        this.name = name;
        this.win = win;
@@ -21,5 +21,4 @@ public class BaseBallTeam {
     public double getRate() {
         return (double)this.win/((double)this.win + (double)this.lose);
     }
-
 }
